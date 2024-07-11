@@ -1,7 +1,12 @@
-export default function Onboarding() {
-    return (
-        <>
-          Onboarding 
-        </>
-    )
+
+import React from 'react';
+
+const page = () => {
+  return (
+    <div>
+      Routes
+    </div>
+  );
 }
+
+export default page;
