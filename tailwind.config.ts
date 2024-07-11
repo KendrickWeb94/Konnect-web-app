@@ -23,6 +23,9 @@ const config = {
       },
     },
     extend: {
+	     fontFamily: {
+        sans: ["var(--font-sans)", ...fontFamily.sans],
+      },
       screens: {
         "2xl": "1400px",
         "ds": "320px",
