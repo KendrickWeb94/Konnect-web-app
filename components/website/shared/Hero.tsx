@@ -17,7 +17,7 @@ export const Hero = () => {
           Konnect is a social media web app with only one objective to<br className=" md:block ds:hidden"></br>
           help connect people around the world with more features than ever
         </p>
-        <button className="md:w-auto ds:w-full rounded-sm bg-gradient-to-r from-slate-600 to-slate-300 px-7 p-3 ">
+        <button className="md:w-auto ds:w-full rounded-sm bg-gradient-to-r hover:bg-gradient-to-bl smooth from-slate-600 to-slate-300 px-7 p-3 ">
           Get Started
         </button>
       </div>
