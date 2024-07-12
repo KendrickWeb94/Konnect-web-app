@@ -1,10 +1,10 @@
-import Image from "next/image";
-import logo from "@/public/assets/logos/logo1.png"
+import Hompage from "@/components/website/Hompage";
+
 
 export default function Home() {
   return (
-    <div className="text-white bg-dark">
-      <Image  src={logo} alt=""/>Konnect
+    <div className="text-white">
+         <Hompage />
     </div>
   );
 }

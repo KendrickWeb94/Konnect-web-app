@@ -8,6 +8,8 @@ const fontSans = FontSans({
   variable: "--font-sans",
 });
 import "../globals.css";
+import { Navbar } from "@/components/website/shared/Navbar";
+import { Footer } from "@/components/website/shared/Footer";
 
 export const metadata: Metadata = {
   title: "Konnect",
@@ -20,14 +22,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          "min-h-screen bg-background bg-dark font-sans antialiased",
+          "min-h-auto bg-background r bg-dark text-white font-sans antialiased",
           fontSans.variable
         )}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
