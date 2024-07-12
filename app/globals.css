@@ -84,3 +84,21 @@
   .z-d {
     z-index: -1;
   }
+
+  .animation-jump {
+      animation-name: jumpkick;
+      animation-duration: 2s;
+      animation-direction: alternate;
+      animation-fill-mode: both;
+      animation-timing-function: 2;
+      animation-iteration-count: infinite;
+  }
+
+  @keyframes jumpkick {
+    0% {
+      transform: translateY(0px);
+    } 
+    100%{
+      transform: translateY(9px);
+    }
+  }

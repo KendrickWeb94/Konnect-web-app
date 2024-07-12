@@ -35,7 +35,7 @@ export const Navbar = () => {
     <div
       className={` ${
         isScrolled
-          ? "bg-zinc-950 top-0 fixed z-50 w-full  transition-colors delay-500 ease-in-out duration-500"
+          ? "bg-slate-600/45 top-0 fixed z-50 w-full  transition-colors delay-500 ease-in-out duration-500"
           : "bg-transparent"
       }`}
     >
@@ -62,7 +62,7 @@ export const Navbar = () => {
           >
             <NavItems links={Navmenu} />
           </nav>
-          <div className="btn_section">
+          <div className="btn_section animation-jump">
             <button className=" sm:h-20 sm:w-20 ds:h-14 ds:w-14 rounded-full hover:bg-slate-600 smooth border-2 flex items-center flex-col justify-center border-slate-600  p-3">
               <div className="flex items-center ">
                 <p className="ds:text-[9px] sm:text-xs">Get </p>

@@ -5,7 +5,7 @@ const NavItems: React.FC<{ links: Navlink[] }> = ({ links }) => {
   return (
     <div>
       
-      <ul className=" flex md:items-center gap-7 text-sm ds:flex-col bg-zinc-950 rounded-md p-4 md:flex-row">
+      <ul className=" flex md:items-center gap-7 text-sm ds:flex-col bg-slate-600/45 rounded-md p-4 md:flex-row">
         {links.map((link) => (
           <li
             key={link.id}
