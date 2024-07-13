@@ -5,6 +5,7 @@ import { Hero } from './shared/Hero'
 import { Details } from './shared/Details'
 import { Features } from './shared/Features'
 import { Testimonial } from './shared/Testimonial'
+import { AccordionDemo } from './shared/Q&A'
 
 const Hompage = () => {
   return (
@@ -13,6 +14,7 @@ const Hompage = () => {
       <Details />
       <Features />
       <Testimonial />
+      <AccordionDemo />
     </div>
   )
 }

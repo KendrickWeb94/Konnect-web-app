@@ -73,7 +73,7 @@
       @apply mx-auto w-full p-2 max-w-xl;
     }
     .content {
-      @apply w-full min-h-auto;
+      @apply w-full min-h-screen;
     }
     .flex-center {
       @apply  flex items-center justify-center h-auto w-full gap-2 p-1;
