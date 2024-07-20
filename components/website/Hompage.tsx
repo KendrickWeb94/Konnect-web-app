@@ -1,16 +1,15 @@
+import React from "react";
+import { Hero } from "./shared/Hero";
+import { Details } from "./shared/Details";
+import { Features } from "./shared/Features";
 
-
-import React from 'react'
-import { Hero } from './shared/Hero'
-import { Details } from './shared/Details'
-import { Features } from './shared/Features'
-import { Testimonial } from './shared/Testimonial'
-import { AccordionDemo } from './shared/Q&A'
-import StartUsing from './shared/StartUsing'
+import { AccordionDemo } from "./shared/Q&A";
+import StartUsing from "./shared/StartUsing";
+import Testimonial from "./shared/Testimonial";
 
 const Hompage = () => {
   return (
-    <div className=''>
+    <div className="">
       <Hero />
       <Details />
       <Features />
@@ -18,8 +17,7 @@ const Hompage = () => {
       <AccordionDemo />
       <StartUsing />
     </div>
-  )
-}
+  );
+};
 
-export default Hompage
-
+export default Hompage;
