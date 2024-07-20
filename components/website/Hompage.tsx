@@ -6,6 +6,7 @@ import { Details } from './shared/Details'
 import { Features } from './shared/Features'
 import { Testimonial } from './shared/Testimonial'
 import { AccordionDemo } from './shared/Q&A'
+import StartUsing from './shared/StartUsing'
 
 const Hompage = () => {
   return (
@@ -15,6 +16,7 @@ const Hompage = () => {
       <Features />
       <Testimonial />
       <AccordionDemo />
+      <StartUsing />
     </div>
   )
 }

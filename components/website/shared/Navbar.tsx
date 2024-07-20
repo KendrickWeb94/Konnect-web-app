@@ -35,7 +35,7 @@ export const Navbar = () => {
     <div
       className={` ${
         isScrolled
-          ? "bg-slate-600/45 top-0 fixed z-50 w-full  transition-colors delay-500 ease-in-out duration-500"
+          ? "bg-zinc-950 top-0 fixed z-50 w-full  transition-colors delay-500 ease-in-out duration-500"
           : "bg-transparent"
       }`}
     >

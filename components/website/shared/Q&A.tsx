@@ -14,10 +14,7 @@ import {
           FAQs
         </h1>
         <div className=" flex-wrap gap-16  p-5 flex-center ">
-          <div className="h-auto w-[300px] ">
-            <Image src="/" alt="" width={55} height={55} />
-          </div>
-          <div className=" max-w-[600px] w-full">
+          <div className="w-full max-w-[750px]">
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">
                 <AccordionTrigger>
